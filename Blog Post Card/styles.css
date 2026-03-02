@@ -1,0 +1,38 @@
+.blog-post-card {
+  width: 350px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  margin: 100px auto;
+}
+
+body {
+  background-color: #f0f8ff;
+}
+
+.post-img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 5px solid dodgerblue;
+}
+
+.post-content {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 10px;
+}
+
+.read-more {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.post-excerpt {
+  margin-bottom: 30px;
+  color: #4a4a4a;
+}
