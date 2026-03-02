@@ -1,0 +1,77 @@
+h1{
+  color: goldenrod;
+  text-align: center;
+  font-size: 100px;
+  font-family:"Orbitron", sans-serif;
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Happy Monkey", system-ui;
+  margin: 10px;
+  font-weight: bold;
+}
+
+body{
+background: radial-gradient(#02682e , #000000 );
+  color: white;
+}
+
+div{
+  margin: 1px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#start-btn{
+  margin-top: 60px;
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-bottom: 15px;
+  padding: 20px 5px;
+  border-bottom: 6px solid rgb(255, 255, 255);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/*
+#new-card-btn{
+  width: 250px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  height: 40px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  border-bottom: 4px solid rgb(255, 255, 255);
+}
+*/
+
+#start-btn:active, #new-card-btn:active{
+  border-bottom: 6px solid rgb(255, 255, 255);
+  background-color: darkgoldenrod;
+}
+
+#player-El{
+  margin-top:35px;
+}
