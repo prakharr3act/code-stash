@@ -1,0 +1,146 @@
+
+:root {
+  --primary: #2563eb;
+  --dark: #0f172a;
+  --bg: #f8fafc;
+  --card: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--dark);
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.cert-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.cert-info p {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+button, .btn-link {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: 0.2s;
+}
+
+.btn-download {
+  background: var(--dark);
+  color: white;
+  border: none;
+}
+
+.btn-download:hover {
+  background: black;
+}
+
+.btn-link {
+  border: 2px solid #e2e8f0;
+  color: var(--dark);
+}
+
+.btn-link:hover {
+  background: #f1f5f9;
+}
+
+.about {
+  margin-top: 80px;
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+
+footer {
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+
+@media(max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
