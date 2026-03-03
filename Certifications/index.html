@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prakhar Patel | Certifications</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>My Certifications</h1>
+<p class="subtitle">    Hi, I'm Prakhar Patel — a passionate student developer who loves building clean, responsive
+    and modern web interfaces. I enjoy learning new technologies, improving my English communication,
+    and constantly upgrading my frontend skills.</p>
+
+<div class="grid">
+
+  <div class="card">
+    <img src="Prakhar_Patel_Web_Design.png" alt="Responsive Web Design">
+    <div class="cert-info">
+      <h3>Responsive Web Design</h3>
+      <p>Issued by freeCodeCamp</p>
+    </div>
+    <div class="btn-group">
+      <button class="btn-download" onclick="downloadCert('responsiveWebDesign.pdf')">Download</button>
+      <a class="btn-link" href="https://www.freecodecamp.org/certification/prakharcodes433/responsive-web-design-v9" target="_blank">View</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="A2 English for Developers.png" alt="A2 English">
+    <div class="cert-info">
+      <h3>A2 English for Developers</h3>
+      <p>Issued by freeCodeCamp</p>
+    </div>
+    <div class="btn-group">
+      <button class="btn-download" onclick="downloadCert('a2EnglishForDevelopers.pdf')">Download</button>
+      <a class="btn-link" href="https://www.freecodecamp.org/certification/prakharcodes433/a2-english-for-developers" target="_blank">View</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="B1 English for Developers.png" alt="B1 English">
+    <div class="cert-info">
+      <h3>B1 English for Developers</h3>
+      <p>Issued by freeCodeCamp</p>
+    </div>
+    <div class="btn-group">
+      <button class="btn-download" onclick="downloadCert('b1EnglishForDevelopers.pdf')">Download</button>
+      <a class="btn-link" href="https://www.freecodecamp.org/certification/prakharcodes433/b1-english-for-developers" target="_blank">View</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="Legacy Responsive Web Design.png" alt="Legacy Web Design">
+    <div class="cert-info">
+      <h3>Legacy Responsive Web Design</h3>
+      <p>Issued by freeCodeCamp</p>
+    </div>
+    <div class="btn-group">
+      <button class="btn-download" onclick="downloadCert('legacyResponsiveWebDesign.pdf')">Download</button>
+      <a class="btn-link" href="https://www.freecodecamp.org/certification/prakharcodes433/responsive-web-design-v9" target="_blank">View</a>
+    </div>
+  </div>
+
+</div>
+
+
+<footer>
+  © 2026 Prakhar Patel
+</footer>
+
+<script>
+function downloadCert(file) {
+  const link = document.createElement('a');
+  link.href = file;
+  link.download = file;
+  link.click();
+}
+</script>
+
+</body>
+</html>
