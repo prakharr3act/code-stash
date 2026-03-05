@@ -1,0 +1,138 @@
+:root {
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --text-main: #0f172a;
+    --text-sub: #64748b;
+    --border-color: #e2e8f0;
+    --accent-color: #3b82f6;
+    --accent-hover: #f0f7ff;
+    --check-border: #cbd5e1;
+}
+
+body.dark-mode {
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-main: #f8fafc;
+    --text-sub: #94a3b8;
+    --border-color: #334155;
+    --accent-color: #60a5fa;
+    --accent-hover: #1e293b;
+    --check-border: #475569;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    transition: background-color 0.3s ease;
+}
+
+.app-wrapper {
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.header-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: var(--text-sub);
+    margin-bottom: 40px;
+}
+
+.feature-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feature-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.feature-card:hover {
+    border-color: var(--accent-color);
+    background-color: var(--accent-hover);
+    transform: translateY(-2px);
+}
+
+.card-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.feature-desc {
+    font-size: 0.9rem;
+    color: var(--text-sub);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 28px;
+    height: 28px;
+    border: 2px solid var(--check-border);
+    border-radius: 8px;
+    background-color: var(--card-bg);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.feature-card:has(input:checked) {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 1px var(--accent-color);
+}
