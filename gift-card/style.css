@@ -1,0 +1,151 @@
+body{
+  text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient( #a2d2ff, #EFB0C9);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.birthday-person-image{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: left;
+  border: 6px solid #EFB0C9;
+}
+
+h1, h2, h4{
+  text-shadow: 0px 0px 1px black;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bday-age {
+  background-color: #EFB0C9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#bday-date{
+  background-color: #EFB0C9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0px;
+}
+
+/*         */
+
+.gift-section{
+  margin-top: 50px;
+}
+
+.gift-title{
+  margin-bottom: 30px;
+}
+
+
+.gift-section-2{
+  margin-top: 50px;
+}
+
+.gift-section-4{
+  margin-top: 50px;
+}
+
+.gift-section-3{
+  margin-top: 50px;
+}
+
+.gift-section-5{
+  margin-top: 50px;
+}
+
+
+/*           */
+#gift-img-happy:hover{
+  background-image: url('./images/happy.gif');
+  background-size: cover;
+}
+
+#gift-img-hot:hover{
+  background-image: url('./images/hot.gif');
+  background-size: cover;
+}
+
+
+#gift-img-genius:hover{
+  background-image: url('./images/genius.gif');
+  background-size: cover;
+  object-fit: cover;
+}
+
+#gift-img-badass:hover{
+  background-image: url('./images/badass.gif');
+  background-size: cover;
+  object-fit: cover;
+}
+
+#gift-img-suprise:hover{
+  background-image: url('./images/suprise.gif');
+  background-size: cover;
+  object-fit: cover;
+}
+
+/*       */
+
+.gift-img{
+  width: 500px;
+  border: 8px solid white;
+  background-image: url("./images/gift-cover.jpg");
+  background-size: cover;
+  height: 380px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+
+.gift-img-3{
+  width: 500px;
+  border: 6px solid white;
+  background-image: url("./images/gift-cover.jpg");
+  background-size: cover;
+  height: 500px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.gift-img-4{
+  width: 432px;
+  border: 6px solid white;
+  background-image: url("./images/gift-cover.jpg");
+  background-size: cover;
+  height: 540px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-position: right;
+}
+
+.gift-img-5{
+  width: 303px;
+  border: 6px solid white;
+  background-image: url("./images/gift-cover.jpg");
+  background-size: cover;
+  height: 540px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-position: right;
+}
+
+.footer{
+  margin-top: 40px;
+  font-style: italic;
+}
