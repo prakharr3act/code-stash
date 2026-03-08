@@ -1,0 +1,99 @@
+body{
+  text-align: center;
+   font-family: "Montserrat", sans-serif;
+}
+
+.sec-2-container img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section-1{
+   display: flex;
+    background-color:#f0f4f8;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    border-radius: 30px 30px 0px 0px;
+    margin: 20px 10px 0px 10px
+}
+
+.city-name{
+  font-size:25px;
+  background-color:#ff871e;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 140px;
+}
+
+.city-details{
+  display: inline-block;
+  font-size: 20px;
+  background-color:#30abfd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.section-2{
+  margin: 0px 10px 0px 10px;
+  background: linear-gradient(#ffffff, #eef3f8);
+  padding: 20px 0px 40px 0px;
+}
+
+.sec-2-h3{
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+
+.sec-2-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec-2-container div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px
+}
+
+
+
+
+.card{
+      margin: 0px auto;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-around;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    color: #2c3e50;
+    border-bottom: 6px solid dodgerblue;
+    margin-top: 80px;
+    box-shadow: 2px 2px 5px rgb(174, 174, 174);
+    margin-bottom: 50px;
+}
+
+img{
+  width:200px;
+  height: 200px;
+  border-radius: 2px;
+box-shadow: 2px 2px 5px rgb(169, 169, 169);
+}
+
+p{
+  font-size: 20px;
+}
+
+.sec-3{
+  margin: 0px 10px 20px 10px;
+  padding: 20px 0px 40px 0px;
+  background-color: #f0f4f8;
+  border-radius: 0px 0px 30px 30px;
+}
