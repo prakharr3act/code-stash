@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Documentation</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div id="layout">
+
+<nav id="navbar">
+<h1>JavaScript Docs</h1>
+<a class="nav-link" href="#intro">Introduction</a>
+<a class="nav-link" href="#syntax">Syntax</a>
+<a class="nav-link" href="#variables">Variables</a>
+<a class="nav-link" href="#datatypes">Data Types</a>
+<a class="nav-link" href="#operators">Operators</a>
+<a class="nav-link" href="#conditions">Conditions</a>
+<a class="nav-link" href="#loops">Loops</a>
+<a class="nav-link" href="#functions">Functions</a>
+<a class="nav-link" href="#arrow">Arrow Functions</a>
+<a class="nav-link" href="#arrays">Arrays</a>
+<a class="nav-link" href="#objects">Objects</a>
+<a class="nav-link" href="#dom">DOM</a>
+<a class="nav-link" href="#events">Events</a>
+<a class="nav-link" href="#async">Async JS</a>
+<a class="nav-link" href="#best">Best Practices</a>
+</nav>
+
+<main id="content">
+
+<section class="section" id="intro">
+<h2>Introduction</h2>
+<p>JavaScript is a high-level programming language used to make web pages interactive.</p>
+<p>It runs in browsers and on servers using Node.js.</p>
+
+<pre><code>
+<span class="keyword">console</span>.<span class="function">log</span>(<span class="string">"Hello World"</span>);
+</code></pre>
+
+<ul>
+<li>Client-side scripting</li>
+<li>Server-side programming</li>
+</ul>
+</section>
+
+<section class="section" id="syntax">
+<h2>Syntax</h2>
+<p>JavaScript syntax defines how programs are written.</p>
+
+<pre><code>
+<span class="keyword">let</span> x = <span class="number">10</span>;
+<span class="keyword">let</span> y = <span class="number">20</span>;
+<span class="keyword">let</span> sum = x + y;
+</code></pre>
+</section>
+
+<section class="section" id="variables">
+<h2>Variables</h2>
+<p>Variables store values.</p>
+
+<pre><code>
+<span class="keyword">let</span> name = <span class="string">"Dev"</span>;
+<span class="keyword">const</span> age = <span class="number">18</span>;
+</code></pre>
+
+<ul>
+<li>let – changeable</li>
+<li>const – fixed</li>
+</ul>
+</section>
+
+<section class="section" id="datatypes">
+<h2>Data Types</h2>
+<p>JavaScript has different data types.</p>
+
+<pre><code>
+<span class="keyword">typeof</span> <span class="string">"Hello"</span>
+<span class="keyword">typeof</span> <span class="number">10</span>
+</code></pre>
+
+<ul>
+<li>String</li>
+<li>Number</li>
+<li>Boolean</li>
+<li>Object</li>
+</ul>
+</section>
+
+<section class="section" id="operators">
+<h2>Operators</h2>
+
+<pre><code>
+<span class="number">10</span> + <span class="number">5</span>
+<span class="number">10</span> &gt; <span class="number">5</span>
+</code></pre>
+</section>
+
+<section class="section" id="conditions">
+<h2>Conditions</h2>
+
+<pre><code>
+<span class="keyword">if</span>(age &gt; <span class="number">18</span>){
+<span class="keyword">console</span>.<span class="function">log</span>(<span class="string">"Adult"</span>);
+}
+</code></pre>
+</section>
+
+<section class="section" id="loops">
+<h2>Loops</h2>
+
+<pre><code>
+<span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++){
+<span class="keyword">console</span>.<span class="function">log</span>(i);
+}
+</code></pre>
+</section>
+
+<section class="section" id="functions">
+<h2>Functions</h2>
+
+<pre><code>
+<span class="keyword">function</span> <span class="function">add</span>(a,b){
+<span class="keyword">return</span> a + b;
+}
+</code></pre>
+</section>
+
+<section class="section" id="arrow">
+<h2>Arrow Functions</h2>
+
+<pre><code>
+<span class="keyword">const</span> add = (a,b) =&gt; a + b;
+</code></pre>
+</section>
+
+<section class="section" id="arrays">
+<h2>Arrays</h2>
+
+<pre><code>
+<span class="keyword">let</span> fruits = [<span class="string">"Apple"</span>,<span class="string">"Banana"</span>];
+</code></pre>
+</section>
+
+<section class="section" id="objects">
+<h2>Objects</h2>
+
+<pre><code>
+<span class="keyword">let</span> user = {
+name: <span class="string">"Dev"</span>,
+age: <span class="number">18</span>
+};
+</code></pre>
+</section>
+
+<section class="section" id="dom">
+<h2>DOM</h2>
+
+<pre><code>
+<span class="keyword">document</span>.<span class="function">getElementById</span>(<span class="string">"id"</span>);
+</code></pre>
+</section>
+
+<section class="section" id="events">
+<h2>Events</h2>
+
+<pre><code>
+<span class="keyword">button</span>.onclick = () =&gt; {
+<span class="keyword">alert</span>(<span class="string">"Clicked"</span>);
+};
+</code></pre>
+</section>
+
+<section class="section" id="async">
+<h2>Async JavaScript</h2>
+
+<pre><code>
+<span class="keyword">async</span> <span class="keyword">function</span> getData(){
+<span class="keyword">let</span> res = <span class="keyword">await</span> fetch(url);
+}
+</code></pre>
+</section>
+
+<section class="section" id="best">
+<h2>Best Practices</h2>
+
+<ul>
+<li>Readable code</li>
+<li>Consistent naming</li>
+<li>Use modern syntax</li>
+</ul>
+</section>
+
+</main>
+</div>
+
+</body>
+</html>
