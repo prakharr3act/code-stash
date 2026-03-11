@@ -1,0 +1,137 @@
+body{
+text-align: center;
+}
+
+/*Container*/
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 25px auto;
+}
+
+/*input container*/
+.input-div{
+  background: linear-gradient(#1e90ff,#1f8fff);
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.input-div h1{
+  margin: 10px auto;
+}
+
+input{
+  width: 100px;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 70px;
+  padding: 15px 10px;
+  border: 2px solid white;
+  background-color: dodgerblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  margin-top: 25px;
+}
+.input-div button {
+  color: black;
+  background-color: white;
+   font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 120px;
+  margin-top: 15px;
+}
+
+
+
+/* Result Div*/
+
+.result-div{
+    background-color:rgb(216, 237, 255);
+  display: flex;
+  flex-direction: column;
+     font-family: "Montserrat", sans-serif;
+  height: 380px;
+  border-radius: 0px 0px 10px 10px;
+  box-sizing: border-box;
+padding: 25px 25px;
+gap: 20px;
+}
+
+/* result-1*/
+.result-1{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 550px;
+  border-radius: 5px;
+  height: fit-content;
+  height: 100px;
+}
+.result-1 h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.result-1 p{
+ font-size: 15px;
+ margin-top: 10px;
+}
+
+
+/* result-2*/
+
+.result-2{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 550px;
+  border-radius: 5px;
+  height: fit-content;
+  height: 100px;
+}
+.result-2 h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.result-2 p{
+ font-size: 15px;
+ margin-top: 10px;
+}
+
+
+/* result-3*/
+
+.result-3{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 550px;
+  border-radius: 5px;
+  height: fit-content;
+  height: 100px;
+}
+.result-3 h4{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.result-3 p{
+ font-size: 15px;
+ margin-top: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(95, 147, 65, 0.2);
+    background-color: dodgerblue;
+}
